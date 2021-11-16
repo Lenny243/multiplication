@@ -1,27 +1,44 @@
-# Table
+Introduction:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
+Ce TP a pour objectif de vous permettre de consolider les premiers concepts présentés dans les premiers TD d’introduction à Angular.
 
-## Development server
+Objectif:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+On souhaite concevoir une application web qui affiche une table de multiplication (1 à 10), selon
+une valeur soumise par l’utilisateur.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Partie 1:
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Nous devion faire une  application mono-page. La page principale fera usage du composant
+TableMultiplication dont le rôle est de présenter une table de multiplication.
 
-## Running unit tests
+J'ai lancé mon projet avec la commande "ng new table --style=css --routing=false".J'ai commencé a céer le composant "table" :il exploite une valeur qui lui est transmise par son parent:un nombre entier qui correspond à la table de multiplication à afficher.Grace à la commande  "ng generate component components/table".
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Voici le code pour le formulaire qui sera dans app.component.html.
 
-## Running end-to-end tests
+![](img/Capture1.PNG)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Le composant table-multiplication est divisé en plusieur parties:
 
-## Further help
+Il exploite une valeur qui lui est donnée ,un nombre entier qui correspond à la table de multiplication à afficher.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![](img/Capture2.PNG)
+
+
+Le code pour l'affichage de la table de multiplication.
+
+![](img/Captur3.PNG)
+
+
+
+
+
+
+
+
+
+
+
+
